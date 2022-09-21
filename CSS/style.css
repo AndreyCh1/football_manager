@@ -1,0 +1,130 @@
+body {
+    margin: 0;
+    padding: 0 120px;
+    font-family: Arial, sans-serif;
+    background-color: #8dc53f;
+}
+
+.wrapper {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 960px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.title p {
+    margin: 0;
+    font-size: 22px;
+    color: #39930d;
+}
+
+.title b {
+    display: block;
+    font-size: 44px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.title em {
+    font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.ball-img {
+    margin-left: 35px;
+}
+
+.contacts {
+    text-align: right;
+}
+
+.contacts p {
+    margin: 0;
+}
+
+.contacts a {
+    font-size: 22px;
+    text-decoration: none;
+    color: #39930d;
+}
+
+.contacts em {
+    display: block;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #5a5a5a;
+    font-style: italic;
+}
+
+.hero-img {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 45px;
+}
+
+.scope {
+    max-width: 600px;
+}
+
+.scope h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #39930d;
+    font-weight: bold;
+}
+
+.scope p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #343434;
+}
+
+.main-menu {
+    width: 300px;
+}
+
+.main-menu p {
+    margin: 0;
+    padding: 12px 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #39930d;
+}
+
+.main-menu ul {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.main-menu a {
+    font-size: 14px;
+    line-height: 30px;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #39930d;
+}
+
+footer {
+    margin: 0 -15px;
+    padding: 14px 15px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #39930d;
+}
